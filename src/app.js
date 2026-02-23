@@ -61,5 +61,6 @@ app.patch('/notes/:id', async (req, res) => {
     res.status(200).json({
         message: "Note updated successfully"
     })
+    
 })
 module.exports = app;
